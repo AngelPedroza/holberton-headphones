@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="3-styles.css" />
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="stylesheet" href="holberton-style.css" />
+    <title>Headphones</title>
+  </head>
+  <body>
+    <!--Contact section-->
+    <section class="contact-section">
+      <div class="center contact-c">
+        <form action="#" method="POST" class="contact-form">
+          <h1>Contact us</h1>
+          <fieldset class="text-fill">
+            <input
+              class="contact-line"
+              type="text"
+              name="your-name"
+              id="your-first-name"
+              placeholder="Name"
+              pattern="[A-Za-zÀ-ž\s]{3,}"
+              maxlength="35"
+              autocomplete="on"
+              accesskey="f"
+              required
+            />
+
+            <input
+              class="contact-line"
+              type="email"
+              name="your-email"
+              id="your-email"
+              placeholder="Email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              maxlength="55"
+              autocomplete="on"
+              accesskey="e"
+              required
+            />
+
+            <input
+              class="contact-line"
+              type="text"
+              name="your-message"
+              id="your-message"
+              placeholder="Your message"
+              pattern="[A-Za-zÀ-ž\s]{3,}"
+              maxlength="35"
+              autocomplete="on"
+              accesskey="f"
+              required
+            />
+          </fieldset>
+          <button class="contact-button">call to action</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
